@@ -2,10 +2,17 @@
 Theme Name: Enzo
 Text Domain: Enis
 Version: 1.0
-Description: Fancy left sidebar theme
-Author: Andrew Wilson
+Description: Just a test on wordpress theme from stratch
+Author: Enis Abazi
 Author URL: https://google.com
 */
 h1 { 
+    color: red;
+}
+
+.not-found {
+    display: flex;
+}
+.not-found h1 {
     color: red;
 }

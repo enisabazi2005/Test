@@ -20,6 +20,7 @@
 
 function followandrew_register_styles() {
     $version = wp_get_theme( 'Version' );
+    wp_enqueue_style('main-style' , get_template_directory_uri() . './build/style-index.css');
     wp_enqueue_style('followandrew_bootstrap', get_template_directory_uri() . "/style.css", array(), $version, 'all');
 }
 

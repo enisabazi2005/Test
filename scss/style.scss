@@ -1,0 +1,23 @@
+$base-red: red;
+$base-blue: blue;
+$base-yellow:yellow;
+
+
+h1 { 
+    color: $base-red;
+}
+h2 { 
+    color: $base-yellow;
+}
+h3 { 
+    color: $base-blue;
+}
+h4 { 
+    color: $base-red;
+}
+span { 
+    color: $base-yellow;
+}
+div { 
+    background-color: $base-red;
+}
