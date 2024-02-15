@@ -1,14 +1,19 @@
 $base-red: red;
 $base-blue: blue;
 $base-yellow:yellow;
+$base-white:white;
 
-
+.not-found { 
+    background-color: $base-red;
+    color: $base-white;
+}
 h1 { 
     color: $base-red;
 }
 h2 { 
     color: $base-yellow;
 }
+
 h3 { 
     color: $base-blue;
 }
@@ -20,4 +25,10 @@ span {
 }
 div { 
     background-color: $base-red;
+}
+header { 
+    background-color: $base-yellow;
+}
+footer { 
+    background-color: $base-yellow;
 }
